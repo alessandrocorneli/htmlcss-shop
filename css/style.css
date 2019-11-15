@@ -7,3 +7,32 @@
 body{
   padding: 15 px;
 }
+
+.riga{
+  margin-bottom: 20px;
+}
+
+.box{
+  display: inline-block;
+  position: relative;
+}
+
+.box .saldo{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: green;
+}
+
+.box .cuore{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
+
+.box:hover .cuore{
+  display: block;
+}
