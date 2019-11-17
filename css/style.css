@@ -24,6 +24,10 @@ body{
   background-color: green;
 }
 
+.box:nth-child(2n) .saldo{
+  background: red;
+}
+
 .box .cuore{
   position: absolute;
   bottom: 0;
@@ -35,4 +39,5 @@ body{
 
 .box:hover .cuore{
   display: block;
+  color: red;
 }
